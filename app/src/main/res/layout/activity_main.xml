@@ -10,24 +10,29 @@
         android:id="@+id/lblTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="146dp"
         android:text="EXERCICIOS"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="146dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnExercicio1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="58dp"
         android:text="Exercicio 1"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintEnd_toEndOf="@+id/lblTitle"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitle" />
 
     <Button
         android:id="@+id/btnExercicio2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
         android:text="Exercicio 2"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="378dp" />
+        app:layout_constraintStart_toStartOf="@+id/btnExercicio1"
+        app:layout_constraintTop_toBottomOf="@+id/btnExercicio1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

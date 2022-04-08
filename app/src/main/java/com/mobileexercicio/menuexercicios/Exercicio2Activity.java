@@ -18,7 +18,7 @@ public class Exercicio2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exercicio2);
 
         EditText usuario = findViewById(R.id.txtUser);
         EditText senha = findViewById(R.id.txtPass);

@@ -7,7 +7,7 @@
     android:backgroundTint="#F0E8FA"
     android:orientation="vertical"
     android:background="@color/purple_200"
-    tools:context=".MainActivity">
+    tools:context=".Exercicio2Activity">
 
 
     <ImageView
@@ -32,7 +32,7 @@
         android:shadowRadius="@integer/material_motion_duration_long_1"
         android:text="login"
         android:textAlignment="center"
-        android:textColor="colorImg"
+        android:textColor="@color/colorImg"
         android:textSize="40sp" />
 
     <EditText
