@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F0E8FA"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLoginScreen"
+        android:layout_width="134dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/img_568656"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/lblLoginTitleScreen"
+        android:layout_width="425dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:text="login"
+        android:textAlignment="center"
+        android:textColor="colorImg"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="usuário"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="senha"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="entrar" />
+
+</LinearLayout>
